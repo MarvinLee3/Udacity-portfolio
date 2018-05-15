@@ -1,0 +1,134 @@
+@media screen and (min-width: 1024px) {
+  html {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .side_colors {
+    width: 160px;
+  }
+  .mainCode {
+    width: 864px;
+    height: 420px;
+  }
+  .featured_work img {
+    width: 276.3333px;
+    max-width: 100%;
+  }
+  .featured_fig {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+  html {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header {
+    margin-left: 0;
+  }
+  .side_colors {
+    order: -1;
+    width: 15%;
+    margin-top: 10px;
+  }
+  .side_colors figure {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .mainCode {
+    width: 595px;
+    height: 370px;
+  }
+  .third_title {
+    margin-left: 0;
+  }
+  .featured_images_left {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .featured_images_center {
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+  }
+  .featured_images_right {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .featured_work img {
+    width: 226.6666px;
+  }
+  .featured_fig {
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  header {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .img_logo {
+    width: 50px;
+    height: 50px;
+  }
+  .name {
+    font-size: 2em;
+  }
+  .nickname {
+    font-size: 1em;
+  }
+  .side_colors {
+    order: 0;
+    width: 100%;
+  }
+  .mainImage {
+  display: none;
+  }
+  .featured_work {
+    order: -1;
+    width: 100%;
+    margin-left: 1em;
+  }
+  .third_title {
+    margin-left: 0;
+  }
+  .featured_images_left {
+    margin-left: 0;
+  }
+  .featured_images_center {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .featured_work img {
+    width: 90%;
+    margin-left: 0.8em;
+    display: block;
+  }
+  .featured_work figure {
+    margin: 0 auto auto auto;
+  }
+  .featured_fig {
+    font-size: 0.7em;
+  }
+  .featured_phr {
+    display: none;
+  }
+  .side_colors figure {
+    float: left;
+  }
+  .list_colors_blue {
+    margin-left: 1.8em;
+    margin-right: 0;
+  }
+  .list_colors_black {
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+  }
+  .list_colors_gray {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
