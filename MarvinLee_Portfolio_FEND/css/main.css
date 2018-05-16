@@ -1,8 +1,7 @@
-body, html {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100%;
+body {
+  max-width: 950px;
+  padding: 10px;
+  margin: 0 auto;
 }
 
 /* header */
@@ -53,13 +52,12 @@ body, html {
 }
 
 /*Use flexbox for main*/
-main {
+.main-content {
   display: flex;
   flex-wrap: wrap;
 }
 
-.mainImage {
-  order: -1;
+.main-image-container {
   width: 100%;
 }
 
@@ -78,9 +76,9 @@ figcaption {
 }
 
 /*Main image*/
-.mainCode {
+.theme-image {
   width: 100%;
-  height: 400px;
+  max-height: 400px;
   margin-top: 10px;
 }
 
@@ -102,29 +100,21 @@ figcaption {
   font-family: "Courier New", Courier, monospace;
 }
 
-.featured_images_left {
-  order: -1;
-  width: 33.3333%;
+.featured_image {
+  width: 32%;
   margin: 0 0 0 0;
 }
 
-.featured_images_center {
-  order: 0;
-  width: 33.3333%;
-  margin: 0 auto;
+.featured_image img {
+  width: 100%;
 }
 
-.featured_images_right {
-  order: 1;
-  width: 33.3333%;
-  margin: auto 0 auto 0;
-}
 
 figcaption {
-  width: 90%;
+  width: 100%;
 }
 
-.featured_phr {
+.project-info {
   margin-top: 0;
   font-family: "Courier New", Courier, monospace;
   font-size: 0.75em;
@@ -146,5 +136,5 @@ a {
 }
 
 a:hover {
-  background-color: #02b3e4;
+  color: #02b3e4;
 }
