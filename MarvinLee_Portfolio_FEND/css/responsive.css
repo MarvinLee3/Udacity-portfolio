@@ -1,0 +1,97 @@
+@media screen and (min-width: 950px) {
+  html {
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mainImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .featured_fig {
+    font-size: 1em;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1023px) {
+  html {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mainImage {
+    width: 100%;
+    height: auto;
+  }
+
+  .featured_work img {
+    width: 95%;
+  }
+
+  .featured_fig {
+    font-size: 0.85em;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  header {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .img_logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .name {
+    font-size: 25px;
+  }
+
+  .nickname {
+    font-size: 10px;
+  }
+
+  .mainImage {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .featured_work {
+    order: -1;
+    width: 100%;
+  }
+
+  .third_title {
+    margin-left: 1em;
+  }
+
+  .featured_images_left {
+    width: 95%;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .featured_images_center {
+    width: 95%;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .featured_images_right {
+    width: 95%;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .featured_work img {
+    width: 100%;
+  }
+
+  .featured_fig {
+    font-size: 1.1em;
+  }
+}

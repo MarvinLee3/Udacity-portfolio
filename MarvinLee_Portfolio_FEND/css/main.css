@@ -1,0 +1,150 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* header */
+
+.header_total {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img_logo {
+  width: 83px;
+  height: auto;
+  order: -1;
+  position: absolute;
+  margin-top: 10px;
+}
+
+.header_title {
+  width: 100%;
+  margin-right: 0;
+  order: 0;
+  margin-top: 6px;
+}
+
+.name {
+  max-width: 100%;
+  height: auto;
+  font-size: 45px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.nickname {
+  width: 100%;
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  margin-top: 0;
+  text-align: right;
+}
+
+.header_total {
+  border-bottom: 3px solid #7d97ad;
+  max-width: 100%;
+}
+
+/*Use flexbox for main*/
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mainImage {
+  order: -1;
+  width: 100%;
+}
+
+.featured_work {
+  order: 0;
+  width: 100%;
+}
+
+/*Side colors css*/
+
+figcaption {
+  margin-bottom: 10px;
+  font-family: "Courier New", Courier, monospace;
+  color: #6a6c6c;
+  margin-top: 0;
+}
+
+/*Main image*/
+.mainCode {
+  width: 100%;
+  height: 400px;
+  margin-top: 10px;
+}
+
+/*Featured work*/
+.featured_work {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
+
+.third_title {
+  order: -1;
+  width: 100%;
+  margin-left: 0;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  color: #6a6c6c;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.featured_images_left {
+  order: -1;
+  width: 33.3333%;
+  margin: 0 0 0 0;
+}
+
+.featured_images_center {
+  order: 0;
+  width: 33.3333%;
+  margin: 0 auto;
+}
+
+.featured_images_right {
+  order: 1;
+  width: 33.3333%;
+  margin: auto 0 auto 0;
+}
+
+figcaption {
+  width: 90%;
+}
+
+.featured_phr {
+  margin-top: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.75em;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.featured_fig {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #6a6c6c;
+}
+
+a:hover {
+  background-color: #02b3e4;
+}
