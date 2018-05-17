@@ -129,12 +129,3 @@ h2 {
 .featured_fig {
   text-align: center;
 }
-
-a {
-  text-decoration: none;
-  color: #6a6c6c;
-}
-
-a:hover {
-  color: #02b3e4;
-}
